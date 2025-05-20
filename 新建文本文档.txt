@@ -1,0 +1,114 @@
+Microsoft Windows [版本 10.0.19045.3393]
+(c) Microsoft Corporation。保留所有权利。
+
+D:\微信通知3>pyinstaller --onefile --windowed --name "微信通知飞书助手" wechat_feishu_gui.py
+231 INFO: PyInstaller: 6.13.0, contrib hooks: 2025.4
+231 INFO: Python: 3.13.3
+258 INFO: Platform: Windows-10-10.0.19045-SP0
+258 INFO: Python environment: C:\Python313
+259 INFO: wrote D:\微信通知3\微信通知飞书助手.spec
+262 INFO: Module search paths (PYTHONPATH):
+['C:\\Python313\\Scripts\\pyinstaller.exe',
+ 'C:\\Python313\\python313.zip',
+ 'C:\\Python313\\DLLs',
+ 'C:\\Python313\\Lib',
+ 'C:\\Python313',
+ 'C:\\Python313\\Lib\\site-packages',
+ 'C:\\Python313\\Lib\\site-packages\\setuptools\\_vendor',
+ 'D:\\微信通知3']
+579 INFO: checking Analysis
+579 INFO: Building Analysis because Analysis-00.toc is non existent
+579 INFO: Running Analysis Analysis-00.toc
+579 INFO: Target bytecode optimization level: 0
+579 INFO: Initializing module dependency graph...
+582 INFO: Initializing module graph hook caches...
+596 INFO: Analyzing modules for base_library.zip ...
+1940 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+4093 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+5093 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+5684 INFO: Caching module dependency graph...
+5719 INFO: Looking for Python shared library...
+5726 INFO: Using Python shared library: C:\Python313\python313.dll
+5726 INFO: Analyzing D:\微信通知3\wechat_feishu_gui.py
+5749 INFO: Processing pre-find-module-path hook 'hook-tkinter.py' from 'C:\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+5749 INFO: TclTkInfo: initializing cached Tcl/Tk info...
+6232 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+6309 INFO: Processing standard module hook 'hook-urllib3.py' from 'C:\\Python313\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+6530 INFO: Processing pre-safe-import-module hook 'hook-typing_extensions.py' from 'C:\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+6531 INFO: SetuptoolsInfo: initializing cached setuptools info...
+10450 INFO: Setuptools: 'typing_extensions' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.typing_extensions'!
+10457 INFO: Processing standard module hook 'hook-setuptools.py' from 'C:\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+10504 INFO: Processing standard module hook 'hook-platform.py' from 'C:\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+10570 INFO: Processing pre-safe-import-module hook 'hook-distutils.py' from 'C:\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+10620 INFO: Processing standard module hook 'hook-sysconfig.py' from 'C:\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+10627 INFO: Processing pre-safe-import-module hook 'hook-jaraco.functools.py' from 'C:\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+10627 INFO: Setuptools: 'jaraco.functools' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.jaraco.functools'!
+10638 INFO: Processing pre-safe-import-module hook 'hook-more_itertools.py' from 'C:\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+10639 INFO: Setuptools: 'more_itertools' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.more_itertools'!
+10869 INFO: Processing pre-safe-import-module hook 'hook-packaging.py' from 'C:\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+10881 INFO: Processing standard module hook 'hook-packaging.py' from 'C:\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+11026 INFO: Processing pre-safe-import-module hook 'hook-jaraco.text.py' from 'C:\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+11026 INFO: Setuptools: 'jaraco.text' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.jaraco.text'!
+11038 INFO: Processing standard module hook 'hook-setuptools._vendor.jaraco.text.py' from 'C:\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+11039 INFO: Processing pre-safe-import-module hook 'hook-importlib_resources.py' from 'C:\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+11040 INFO: Processing pre-safe-import-module hook 'hook-jaraco.context.py' from 'C:\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+11041 INFO: Setuptools: 'jaraco.context' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.jaraco.context'!
+11277 INFO: Processing pre-safe-import-module hook 'hook-backports.tarfile.py' from 'C:\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+11277 INFO: Setuptools: 'backports.tarfile' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.backports.tarfile'!
+11375 INFO: Processing standard module hook 'hook-backports.py' from 'C:\\Python313\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+11459 INFO: Processing pre-safe-import-module hook 'hook-importlib_metadata.py' from 'C:\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+11460 INFO: Setuptools: 'importlib_metadata' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.importlib_metadata'!
+11487 INFO: Processing standard module hook 'hook-setuptools._vendor.importlib_metadata.py' from 'C:\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+11489 INFO: Processing pre-safe-import-module hook 'hook-zipp.py' from 'C:\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+11489 INFO: Setuptools: 'zipp' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.zipp'!
+11834 INFO: Processing pre-safe-import-module hook 'hook-tomli.py' from 'C:\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+11835 INFO: Setuptools: 'tomli' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.tomli'!
+12432 INFO: Processing standard module hook 'hook-pkg_resources.py' from 'C:\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+12822 INFO: Processing standard module hook 'hook-xml.py' from 'C:\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+12825 INFO: Processing pre-safe-import-module hook 'hook-platformdirs.py' from 'C:\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+12825 INFO: Setuptools: 'platformdirs' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.platformdirs'!
+12909 INFO: Processing pre-safe-import-module hook 'hook-wheel.py' from 'C:\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+12910 INFO: Setuptools: 'wheel' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.wheel'!
+13658 INFO: Processing standard module hook 'hook-charset_normalizer.py' from 'C:\\Python313\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+13815 INFO: Processing standard module hook 'hook-certifi.py' from 'C:\\Python313\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+13931 INFO: Processing module hooks (post-graph stage)...
+14644 INFO: Processing standard module hook 'hook-multiprocessing.util.py' from 'C:\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+15105 INFO: Processing standard module hook 'hook-difflib.py' from 'C:\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+15839 INFO: Processing standard module hook 'hook-_tkinter.py' from 'C:\\Python313\\Lib\\site-packages\\PyInstaller\\hooks'
+15851 INFO: Performing binary vs. data reclassification (937 entries)
+16271 INFO: Looking for ctypes DLLs
+16309 INFO: Analyzing run-time hooks ...
+16311 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+16314 INFO: Including run-time hook 'pyi_rth_setuptools.py' from 'C:\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+16316 INFO: Including run-time hook 'pyi_rth_pkgutil.py' from 'C:\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+16318 INFO: Including run-time hook 'pyi_rth_multiprocessing.py' from 'C:\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+16320 INFO: Including run-time hook 'pyi_rth_pkgres.py' from 'C:\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+16324 INFO: Including run-time hook 'pyi_rth__tkinter.py' from 'C:\\Python313\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+16352 INFO: Creating base_library.zip...
+16394 INFO: Looking for dynamic libraries
+17261 INFO: Extra DLL search directories (AddDllDirectory): []
+17261 INFO: Extra DLL search directories (PATH): []
+17599 INFO: Warnings written to D:\微信通知3\build\微信通知飞书助手\warn-微信通知飞书助手.txt
+17640 INFO: Graph cross-reference written to D:\微信通知3\build\微信通知飞书助手\xref-微信通知飞书助手.html
+17669 INFO: checking PYZ
+17669 INFO: Building PYZ because PYZ-00.toc is non existent
+17669 INFO: Building PYZ (ZlibArchive) D:\微信通知3\build\微信通知飞书助手\PYZ-00.pyz
+18278 INFO: Building PYZ (ZlibArchive) D:\微信通知3\build\微信通知飞书助手\PYZ-00.pyz completed successfully.
+18315 INFO: checking PKG
+18315 INFO: Building PKG because PKG-00.toc is non existent
+18316 INFO: Building PKG (CArchive) 微信通知飞书助手.pkg
+21086 INFO: Building PKG (CArchive) 微信通知飞书助手.pkg completed successfully.
+21098 INFO: Bootloader C:\Python313\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+21099 INFO: checking EXE
+21099 INFO: Building EXE because EXE-00.toc is non existent
+21099 INFO: Building EXE from EXE-00.toc
+21099 INFO: Copying bootloader EXE to D:\微信通知3\dist\微信通知飞书助手.exe
+21269 INFO: Copying icon to EXE
+21443 INFO: Copying 0 resources to EXE
+21444 INFO: Embedding manifest in EXE
+21621 INFO: Appending PKG archive to EXE
+21634 INFO: Fixing EXE headers
+21718 INFO: Building EXE from EXE-00.toc completed successfully.
+21731 INFO: Build complete! The results are available in: D:\微信通知3\dist
+
+D:\微信通知3>
